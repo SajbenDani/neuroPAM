@@ -3,11 +3,8 @@
 **Protected-subspace Affine Matching (PAM)**: a closed-form harmonizer for multi-site functional
 connectivity that removes site effects and keeps the labels you want to study.
 
-This repository holds the code, the configuration and the result files of the paper
-
-> Dániel Sajben, Luca Szegletes and the DIRECT Consortium. *Moving less takes you further:
-> minimum-displacement affine harmonization of multi-site functional connectivity with a
-> label-protected subspace.* Submitted to *Medical Image Analysis*, 2026.
+This repository holds the code, the configuration and the result files of the paper that
+introduces PAM. Its reference will be added here once the paper is published.
 
 ## What PAM does
 
@@ -165,19 +162,6 @@ checkpoints/       frozen VAE checkpoints for the appendix comparison (optional)
 data/              phenotypic tables and atlas mapping tables
 third_party/       the DeepComBat R package (authors' code, MIT) with four documented patches
 tests/             pytest suite on synthetic cohorts
-```
-
-## Citation
-
-```bibtex
-@article{sajben2026pam,
-  author  = {Sajben, D{\'a}niel and Szegletes, Luca and {the DIRECT Consortium}},
-  title   = {Moving less takes you further: minimum-displacement affine harmonization of
-             multi-site functional connectivity with a label-protected subspace},
-  journal = {Medical Image Analysis},
-  note    = {Submitted},
-  year    = {2026}
-}
 ```
 
 ## License
