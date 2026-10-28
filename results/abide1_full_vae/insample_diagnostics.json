@@ -1,0 +1,333 @@
+{
+  "gaussianity": {
+    "label": "All sites",
+    "shapiro_wilk_pass_rate": 0.296875,
+    "shapiro_wilk_n_pass": 19,
+    "shapiro_wilk_n_total": 64,
+    "active_dims": 64
+  },
+  "reconstruction_raw": {
+    "CALTECH": {
+      "mse": 0.030650002881884575,
+      "pearson_r": 0.7491679978525234,
+      "n": 22
+    },
+    "CMU": {
+      "mse": 0.022181211039423943,
+      "pearson_r": 0.8030847283721871,
+      "n": 2
+    },
+    "KKI": {
+      "mse": 0.02641928568482399,
+      "pearson_r": 0.7538756111080909,
+      "n": 34
+    },
+    "LEUVEN": {
+      "mse": 0.026180043816566467,
+      "pearson_r": 0.8116673663322916,
+      "n": 52
+    },
+    "MAX_MUN": {
+      "mse": 0.02683073654770851,
+      "pearson_r": 0.7530498196756369,
+      "n": 36
+    },
+    "NYU": {
+      "mse": 0.025956973433494568,
+      "pearson_r": 0.7603440922596385,
+      "n": 166
+    },
+    "OHSU": {
+      "mse": 0.028735807165503502,
+      "pearson_r": 0.851286191548237,
+      "n": 19
+    },
+    "OLIN": {
+      "mse": 0.027141936123371124,
+      "pearson_r": 0.7839119765730314,
+      "n": 23
+    },
+    "PITT": {
+      "mse": 0.029185838997364044,
+      "pearson_r": 0.7752554361215725,
+      "n": 37
+    },
+    "SBL": {
+      "mse": 0.02671685814857483,
+      "pearson_r": 0.7770021600551918,
+      "n": 13
+    },
+    "SDSU": {
+      "mse": 0.028546173125505447,
+      "pearson_r": 0.7617519620552852,
+      "n": 29
+    },
+    "STANFORD": {
+      "mse": 0.025753524154424667,
+      "pearson_r": 0.7495490852287443,
+      "n": 31
+    },
+    "TRINITY": {
+      "mse": 0.029963035136461258,
+      "pearson_r": 0.7721330693738289,
+      "n": 41
+    },
+    "UCLA": {
+      "mse": 0.02885482646524906,
+      "pearson_r": 0.7771579987704725,
+      "n": 70
+    },
+    "UM": {
+      "mse": 0.02151665650308132,
+      "pearson_r": 0.7658732282877693,
+      "n": 104
+    },
+    "USM": {
+      "mse": 0.021559372544288635,
+      "pearson_r": 0.7673760207137044,
+      "n": 54
+    },
+    "YALE": {
+      "mse": 0.02613586187362671,
+      "pearson_r": 0.8146135539054953,
+      "n": 45
+    },
+    "ALL": {
+      "mse": 0.026096438989043236,
+      "pearson_r": 0.7729758604933916,
+      "n": 778
+    }
+  },
+  "reconstruction_pca": {
+    "CALTECH": {
+      "mse": 18.940397262573242,
+      "pearson_r": 0.9319715523671018,
+      "n": 22
+    },
+    "CMU": {
+      "mse": 13.178494453430176,
+      "pearson_r": 0.8776739817013576,
+      "n": 2
+    },
+    "KKI": {
+      "mse": 13.534667015075684,
+      "pearson_r": 0.9048246904818453,
+      "n": 34
+    },
+    "LEUVEN": {
+      "mse": 15.299120903015137,
+      "pearson_r": 0.9194374826918084,
+      "n": 52
+    },
+    "MAX_MUN": {
+      "mse": 14.278219223022461,
+      "pearson_r": 0.9187816082755523,
+      "n": 36
+    },
+    "NYU": {
+      "mse": 13.636523246765137,
+      "pearson_r": 0.9063949523861529,
+      "n": 166
+    },
+    "OHSU": {
+      "mse": 23.680299758911133,
+      "pearson_r": 0.9424107555985853,
+      "n": 19
+    },
+    "OLIN": {
+      "mse": 15.888071060180664,
+      "pearson_r": 0.9145510524381599,
+      "n": 23
+    },
+    "PITT": {
+      "mse": 17.40090560913086,
+      "pearson_r": 0.9104893766207719,
+      "n": 37
+    },
+    "SBL": {
+      "mse": 13.28956413269043,
+      "pearson_r": 0.9298735133609053,
+      "n": 13
+    },
+    "SDSU": {
+      "mse": 16.297077178955078,
+      "pearson_r": 0.9115600132122555,
+      "n": 29
+    },
+    "STANFORD": {
+      "mse": 14.231048583984375,
+      "pearson_r": 0.9076880041593341,
+      "n": 31
+    },
+    "TRINITY": {
+      "mse": 19.10344123840332,
+      "pearson_r": 0.9054336773624585,
+      "n": 41
+    },
+    "UCLA": {
+      "mse": 17.308029174804688,
+      "pearson_r": 0.9079038858085756,
+      "n": 70
+    },
+    "UM": {
+      "mse": 10.76386833190918,
+      "pearson_r": 0.8954854242937631,
+      "n": 104
+    },
+    "USM": {
+      "mse": 11.088003158569336,
+      "pearson_r": 0.9051593747470416,
+      "n": 54
+    },
+    "YALE": {
+      "mse": 15.06374454498291,
+      "pearson_r": 0.9213502784380938,
+      "n": 45
+    },
+    "ALL": {
+      "mse": 14.669732093811035,
+      "pearson_r": 0.9097784396402698,
+      "n": 778
+    }
+  },
+  "insample_map": {
+    "name": "ours",
+    "class": "ProtectedAffineHarmonizer",
+    "protected": [
+      "diagnosis"
+    ],
+    "protected_kept": [
+      "diagnosis"
+    ],
+    "k": 1,
+    "complement_map": "bw",
+    "covariance": "pooled",
+    "lam": 1.0,
+    "hub": "target",
+    "target_site": 5,
+    "min_cov_samples": 10,
+    "ridge": 1e-06,
+    "mean_model": "conditional",
+    "sites": {
+      "0": {
+        "n": 22,
+        "lam": 1.0,
+        "shrinkage": 0.7832815532035977,
+        "mean_shift_only": false,
+        "displacement_train": 21.933424025899352
+      },
+      "1": {
+        "n": 2,
+        "lam": 0.0,
+        "shrinkage": 0.0,
+        "mean_shift_only": true,
+        "displacement_train": 28.776501319182852
+      },
+      "2": {
+        "n": 34,
+        "lam": 1.0,
+        "shrinkage": 0.7516195016381843,
+        "mean_shift_only": false,
+        "displacement_train": 19.26622806945739
+      },
+      "3": {
+        "n": 52,
+        "lam": 1.0,
+        "shrinkage": 0.6831665753258982,
+        "mean_shift_only": false,
+        "displacement_train": 13.041670809834788
+      },
+      "4": {
+        "n": 36,
+        "lam": 1.0,
+        "shrinkage": 0.7877389325122004,
+        "mean_shift_only": false,
+        "displacement_train": 8.019580133923107
+      },
+      "5": {
+        "n": 166,
+        "lam": 0.0,
+        "shrinkage": 0.5834243591221636,
+        "mean_shift_only": false,
+        "displacement_train": 0.0
+      },
+      "6": {
+        "n": 19,
+        "lam": 1.0,
+        "shrinkage": 0.8236825928924099,
+        "mean_shift_only": false,
+        "displacement_train": 23.982178927661245
+      },
+      "7": {
+        "n": 23,
+        "lam": 1.0,
+        "shrinkage": 0.8738101177774975,
+        "mean_shift_only": false,
+        "displacement_train": 9.066131673524408
+      },
+      "8": {
+        "n": 37,
+        "lam": 1.0,
+        "shrinkage": 0.7916024361254481,
+        "mean_shift_only": false,
+        "displacement_train": 8.841122477058992
+      },
+      "9": {
+        "n": 13,
+        "lam": 1.0,
+        "shrinkage": 0.808152308858792,
+        "mean_shift_only": false,
+        "displacement_train": 23.518256664849844
+      },
+      "10": {
+        "n": 29,
+        "lam": 1.0,
+        "shrinkage": 0.8378088634760852,
+        "mean_shift_only": false,
+        "displacement_train": 10.73593368452409
+      },
+      "11": {
+        "n": 31,
+        "lam": 1.0,
+        "shrinkage": 0.6935662568011067,
+        "mean_shift_only": false,
+        "displacement_train": 17.161594413537514
+      },
+      "12": {
+        "n": 41,
+        "lam": 1.0,
+        "shrinkage": 0.7417169043058418,
+        "mean_shift_only": false,
+        "displacement_train": 15.369603501500423
+      },
+      "13": {
+        "n": 70,
+        "lam": 1.0,
+        "shrinkage": 0.8463895384755507,
+        "mean_shift_only": false,
+        "displacement_train": 6.9766947989200485
+      },
+      "14": {
+        "n": 104,
+        "lam": 1.0,
+        "shrinkage": 0.34750236306518023,
+        "mean_shift_only": false,
+        "displacement_train": 10.822124029820174
+      },
+      "15": {
+        "n": 54,
+        "lam": 1.0,
+        "shrinkage": 0.6388968737033695,
+        "mean_shift_only": false,
+        "displacement_train": 9.63154497652389
+      },
+      "16": {
+        "n": 45,
+        "lam": 1.0,
+        "shrinkage": 0.8472363964284493,
+        "mean_shift_only": false,
+        "displacement_train": 9.559591934290875
+      }
+    }
+  }
+}

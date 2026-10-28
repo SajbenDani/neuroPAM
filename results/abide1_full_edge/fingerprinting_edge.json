@@ -1,0 +1,238 @@
+{
+  "protocol": "single-map: harmonizer fitted on full-scan latents, same site maps applied to both halves",
+  "metric": "cosine",
+  "n_subjects": 778,
+  "chance_all": 0.0012853470437017994,
+  "conditions": {
+    "Unharmonized": {
+      "all": {
+        "rank1": 0.9800771208226221,
+        "median_rank": 1.0,
+        "idiff": 26.853343067528545,
+        "n": 778
+      },
+      "within_site": {
+        "rank1_weighted": 0.9942010309278351,
+        "rank1_unweighted": 0.996722910900429,
+        "idiff_weighted": 24.974655818583106,
+        "chance_weighted": 0.020618556701030927,
+        "n_sites": 16,
+        "per_site": {
+          "CALTECH": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 31.686329138538472,
+            "n": 22
+          },
+          "KKI": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 22.202309701102042,
+            "n": 34
+          },
+          "LEUVEN": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 26.265361962043066,
+            "n": 52
+          },
+          "MAX_MUN": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 27.633256581188476,
+            "n": 36
+          },
+          "NYU": {
+            "rank1": 0.9849397590361446,
+            "median_rank": 1.0,
+            "idiff": 22.886464869769796,
+            "n": 166
+          },
+          "OHSU": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 29.665601798583108,
+            "n": 19
+          },
+          "OLIN": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 23.95445881079373,
+            "n": 23
+          },
+          "PITT": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 22.660384241125435,
+            "n": 37
+          },
+          "SBL": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 28.95025075771734,
+            "n": 13
+          },
+          "SDSU": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 27.915944075516386,
+            "n": 29
+          },
+          "STANFORD": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 26.553919424236334,
+            "n": 31
+          },
+          "TRINITY": {
+            "rank1": 0.9878048780487805,
+            "median_rank": 1.0,
+            "idiff": 23.184287323805187,
+            "n": 41
+          },
+          "UCLA": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 26.263044388631133,
+            "n": 70
+          },
+          "UM": {
+            "rank1": 0.9951923076923077,
+            "median_rank": 1.0,
+            "idiff": 25.760006105633643,
+            "n": 104
+          },
+          "USM": {
+            "rank1": 0.9907407407407407,
+            "median_rank": 1.0,
+            "idiff": 22.689523894294243,
+            "n": 54
+          },
+          "YALE": {
+            "rank1": 0.9888888888888889,
+            "median_rank": 1.0,
+            "idiff": 24.738705784706216,
+            "n": 45
+          }
+        }
+      }
+    },
+    "Ours (edge residual)": {
+      "all": {
+        "rank1": 0.9042416452442159,
+        "median_rank": 1.0,
+        "idiff": 21.65052903260431,
+        "n": 778
+      },
+      "within_site": {
+        "rank1_weighted": 0.9806701030927835,
+        "rank1_unweighted": 0.9705777355833158,
+        "idiff_weighted": 22.02993200151604,
+        "chance_weighted": 0.020618556701030927,
+        "n_sites": 16,
+        "per_site": {
+          "CALTECH": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 20.614305456512906,
+            "n": 22
+          },
+          "KKI": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 18.488798197878108,
+            "n": 34
+          },
+          "LEUVEN": {
+            "rank1": 0.9807692307692308,
+            "median_rank": 1.0,
+            "idiff": 22.270199524358368,
+            "n": 52
+          },
+          "MAX_MUN": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 22.508160405706935,
+            "n": 36
+          },
+          "NYU": {
+            "rank1": 0.9849397590361446,
+            "median_rank": 1.0,
+            "idiff": 22.886464869769778,
+            "n": 166
+          },
+          "OHSU": {
+            "rank1": 0.7105263157894737,
+            "median_rank": 1.0,
+            "idiff": 10.445374191735452,
+            "n": 19
+          },
+          "OLIN": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 20.859961815509898,
+            "n": 23
+          },
+          "PITT": {
+            "rank1": 0.9459459459459459,
+            "median_rank": 1.0,
+            "idiff": 17.710238421942748,
+            "n": 37
+          },
+          "SBL": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 21.531708143770594,
+            "n": 13
+          },
+          "SDSU": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 23.77917154667114,
+            "n": 29
+          },
+          "STANFORD": {
+            "rank1": 0.967741935483871,
+            "median_rank": 1.0,
+            "idiff": 19.92699210253919,
+            "n": 31
+          },
+          "TRINITY": {
+            "rank1": 0.975609756097561,
+            "median_rank": 1.0,
+            "idiff": 17.826170762030884,
+            "n": 41
+          },
+          "UCLA": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 25.819755010457463,
+            "n": 70
+          },
+          "UM": {
+            "rank1": 0.9951923076923077,
+            "median_rank": 1.0,
+            "idiff": 23.76971968756268,
+            "n": 104
+          },
+          "USM": {
+            "rank1": 0.9907407407407407,
+            "median_rank": 1.0,
+            "idiff": 20.5869291918419,
+            "n": 54
+          },
+          "YALE": {
+            "rank1": 0.9777777777777779,
+            "median_rank": 1.0,
+            "idiff": 26.729559808830892,
+            "n": 45
+          }
+        }
+      },
+      "delta_rank1_all_pp": -7.583547557840619,
+      "delta_rank1_within_pp": -1.353092783505161,
+      "delta_idiff_within": -2.9447238170670644
+    }
+  },
+  "representation": "raw"
+}

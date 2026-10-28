@@ -1,0 +1,103 @@
+# ---------------------------------------------------------------------------
+# Data: raw and processed neuroimaging data are never committed.
+# Tracked exceptions: the public phenotypic tables of the three cohorts (age,
+# sex, motion covariates) and the atlas mapping tables in data/atlases/.
+# The three processed HDF5 files must be copied in by hand (REPRODUCE.md).
+# ---------------------------------------------------------------------------
+data/*
+!data/atlases/
+!data/ABIDE-II/
+data/ABIDE-II/*
+!data/ABIDE-II/ABIDEII_Composite_Usable20_Phenotypic.csv
+!data/raw/
+data/raw/*
+!data/raw/Phenotypic_V1_0b_preprocessed1.csv
+!data/ADHD-200/
+data/ADHD-200/*
+!data/ADHD-200/*/
+data/ADHD-200/*/*
+!data/ADHD-200/*/*_phenotypic.csv
+# REST-meta-MDD (DIRECT Consortium). The data-use agreement forbids sharing the
+# scans and the phenotypic workbook. data/* already ignores this tree. Do not add
+# a "!" exception for data/REST-meta-MDD/, the phenotype xlsx, the Yan 2019
+# subject list, or data/processed/rest_meta_mdd_fc.h5.
+# SRPBS (ATR): the Multidisorder Connectivity Dataset (data/SRPBS*, SRPBS_FC.tar.gz)
+# and the DecNef Harmonization Dataset (data/SourceCodeAndDATA/) are covered by
+# signed non-redistribution terms. Never add a "!" exception for them or for
+# data/processed/srpbs*.h5.
+
+# ---------------------------------------------------------------------------
+# Checkpoints: the three frozen FC-VAE checkpoints the paper reports are
+# tracked (checkpoints/<cohort>/fcvae_d64.pt + history); anything else is not.
+# ---------------------------------------------------------------------------
+checkpoints/*
+!checkpoints/abide1_full/
+!checkpoints/adhd200/
+!checkpoints/abide2_10site/
+checkpoints/*/flow*.pt
+
+# ---------------------------------------------------------------------------
+# Results: the JSON files the tables are generated from are tracked for the
+# three public cohorts; arrays, logs, figures and scratch runs are not.
+# REST-meta-MDD results stay local under the data-use agreement: never add a
+# "!" exception for results/rest_meta_mdd*. The same holds for results/srpbs*.
+# ---------------------------------------------------------------------------
+results/*
+!results/abide1_full*/
+!results/adhd200*/
+!results/abide2_10site*/
+!results/simulation/
+!results/theorem/
+results/**/*.npz
+results/**/*.png
+results/**/*.log
+results/**/figures/
+results/**/*.before_fix.json
+results/*_covrepair/
+results/_queue*.ps1
+results/cpu_queue.log
+
+# ---------------------------------------------------------------------------
+# LaTeX build artefacts (paper/main.pdf is tracked on purpose)
+# ---------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+paper/main.log
+
+# ---------------------------------------------------------------------------
+# Python / tooling
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+wandb/
+mlruns/
+
+# ---------------------------------------------------------------------------
+# Editor / OS / assistant artefacts
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
+.code-review-graph/
+CLAUDE.md
+
+hand-off.md

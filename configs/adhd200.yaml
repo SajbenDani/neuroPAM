@@ -1,0 +1,28 @@
+# ADHD-200, 7 sites, Athena / CC200 (190 ROIs, 17,955 edges), N = 659.
+# Identical hyper-parameters to ABIDE-I (no re-tuning); hub = Peking (largest site).
+dataset_name: adhd200
+
+pca_dim: 100
+latent_dim: 64
+encoder_dims: [512, 256]
+decoder_dims: [256, 512]
+
+batch_size: 64
+max_epochs: 300
+patience: 30
+lr: 0.001
+weight_decay: 0.0001
+grad_clip_norm: 1.0
+beta_final: 0.1
+beta_warmup_epochs: 50
+free_bits: 0.125
+lambda_recon: 1.0
+lambda_site: 0.0
+lambda_bio: 0.0
+
+bio_svm_C: 1.0
+min_cov_samples: 10
+ridge: 1.0e-6
+
+n_cv_folds: 10
+seed: 42

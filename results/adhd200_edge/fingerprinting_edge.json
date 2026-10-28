@@ -1,0 +1,130 @@
+{
+  "protocol": "single-map: harmonizer fitted on full-scan latents, same site maps applied to both halves",
+  "metric": "cosine",
+  "n_subjects": 659,
+  "chance_all": 0.0015174506828528073,
+  "conditions": {
+    "Unharmonized": {
+      "all": {
+        "rank1": 0.9036418816388467,
+        "median_rank": 1.0,
+        "idiff": 26.121496649043145,
+        "n": 659
+      },
+      "within_site": {
+        "rank1_weighted": 0.9385432473444613,
+        "rank1_unweighted": 0.9485807940323083,
+        "idiff_weighted": 23.787172648466537,
+        "chance_weighted": 0.010622154779969651,
+        "n_sites": 7,
+        "per_site": {
+          "KKI": {
+            "rank1": 1.0,
+            "median_rank": 1.0,
+            "idiff": 25.655380671723176,
+            "n": 78
+          },
+          "NYU": {
+            "rank1": 0.9209039548022598,
+            "median_rank": 1.0,
+            "idiff": 21.833521351711465,
+            "n": 177
+          },
+          "NeuroIMAGE": {
+            "rank1": 0.9871794871794872,
+            "median_rank": 1.0,
+            "idiff": 24.560176056796674,
+            "n": 39
+          },
+          "OHSU": {
+            "rank1": 0.9166666666666666,
+            "median_rank": 1.0,
+            "idiff": 24.138074763305983,
+            "n": 66
+          },
+          "Peking": {
+            "rank1": 0.9234972677595629,
+            "median_rank": 1.0,
+            "idiff": 24.065863720736484,
+            "n": 183
+          },
+          "Pittsburgh": {
+            "rank1": 0.9318181818181819,
+            "median_rank": 1.0,
+            "idiff": 24.287250288395157,
+            "n": 66
+          },
+          "WashU": {
+            "rank1": 0.96,
+            "median_rank": 1.0,
+            "idiff": 25.042448463399797,
+            "n": 50
+          }
+        }
+      }
+    },
+    "Ours (edge residual)": {
+      "all": {
+        "rank1": 0.7291350531107739,
+        "median_rank": 1.0,
+        "idiff": 18.102917154327823,
+        "n": 659
+      },
+      "within_site": {
+        "rank1_weighted": 0.8474962063732928,
+        "rank1_unweighted": 0.8273560300956799,
+        "idiff_weighted": 18.307317597826028,
+        "chance_weighted": 0.010622154779969651,
+        "n_sites": 7,
+        "per_site": {
+          "KKI": {
+            "rank1": 0.9102564102564102,
+            "median_rank": 1.0,
+            "idiff": 16.88930688132847,
+            "n": 78
+          },
+          "NYU": {
+            "rank1": 0.8785310734463276,
+            "median_rank": 1.0,
+            "idiff": 18.154837890822257,
+            "n": 177
+          },
+          "NeuroIMAGE": {
+            "rank1": 0.9743589743589743,
+            "median_rank": 1.0,
+            "idiff": 21.69364296590884,
+            "n": 39
+          },
+          "OHSU": {
+            "rank1": 0.4015151515151515,
+            "median_rank": 2.5,
+            "idiff": 7.632909331120569,
+            "n": 66
+          },
+          "Peking": {
+            "rank1": 0.9234972677595629,
+            "median_rank": 1.0,
+            "idiff": 24.065863720736463,
+            "n": 183
+          },
+          "Pittsburgh": {
+            "rank1": 0.8333333333333333,
+            "median_rank": 1.0,
+            "idiff": 15.806128046066458,
+            "n": 66
+          },
+          "WashU": {
+            "rank1": 0.87,
+            "median_rank": 1.0,
+            "idiff": 14.733369001772584,
+            "n": 50
+          }
+        }
+      },
+      "delta_rank1_all_pp": -17.450682852807287,
+      "delta_rank1_within_pp": -9.104704097116844,
+      "delta_idiff_within": -5.479855050640509
+    }
+  },
+  "representation": "raw"
+}

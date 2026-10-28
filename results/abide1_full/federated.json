@@ -1,0 +1,95 @@
+{
+  "agree": true,
+  "max_abs_diff": 0.0,
+  "rtol": 1e-06,
+  "atol": 1e-07,
+  "n_sites": 17,
+  "n_subjects": 778,
+  "messages": {
+    "0": {
+      "n": 22,
+      "has_covariance": true,
+      "shrinkage": 0.7993148861674853
+    },
+    "1": {
+      "n": 2,
+      "has_covariance": false,
+      "shrinkage": 0.0
+    },
+    "2": {
+      "n": 34,
+      "has_covariance": true,
+      "shrinkage": 0.6976742770419468
+    },
+    "3": {
+      "n": 52,
+      "has_covariance": true,
+      "shrinkage": 0.5683502455613982
+    },
+    "4": {
+      "n": 36,
+      "has_covariance": true,
+      "shrinkage": 0.7637163719320362
+    },
+    "5": {
+      "n": 166,
+      "has_covariance": true,
+      "shrinkage": 0.5580056166426819
+    },
+    "6": {
+      "n": 19,
+      "has_covariance": true,
+      "shrinkage": 0.9094944982076706
+    },
+    "7": {
+      "n": 23,
+      "has_covariance": true,
+      "shrinkage": 0.8981306208526112
+    },
+    "8": {
+      "n": 37,
+      "has_covariance": true,
+      "shrinkage": 0.7844712219629665
+    },
+    "9": {
+      "n": 13,
+      "has_covariance": true,
+      "shrinkage": 0.7826071873937627
+    },
+    "10": {
+      "n": 29,
+      "has_covariance": true,
+      "shrinkage": 0.8311764492131516
+    },
+    "11": {
+      "n": 31,
+      "has_covariance": true,
+      "shrinkage": 0.6793544101506367
+    },
+    "12": {
+      "n": 41,
+      "has_covariance": true,
+      "shrinkage": 0.727547365286774
+    },
+    "13": {
+      "n": 70,
+      "has_covariance": true,
+      "shrinkage": 0.8322595042391155
+    },
+    "14": {
+      "n": 104,
+      "has_covariance": true,
+      "shrinkage": 0.3056902800326748
+    },
+    "15": {
+      "n": 54,
+      "has_covariance": true,
+      "shrinkage": 0.6479547881221236
+    },
+    "16": {
+      "n": 45,
+      "has_covariance": true,
+      "shrinkage": 0.9008385358347996
+    }
+  }
+}

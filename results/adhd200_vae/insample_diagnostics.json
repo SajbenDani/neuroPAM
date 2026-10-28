@@ -1,0 +1,163 @@
+{
+  "gaussianity": {
+    "label": "All sites",
+    "shapiro_wilk_pass_rate": 0.140625,
+    "shapiro_wilk_n_pass": 9,
+    "shapiro_wilk_n_total": 64,
+    "active_dims": 64
+  },
+  "reconstruction_raw": {
+    "KKI": {
+      "mse": 0.03576945886015892,
+      "pearson_r": 0.7387475646225741,
+      "n": 78
+    },
+    "NYU": {
+      "mse": 0.030162421986460686,
+      "pearson_r": 0.7926726453956929,
+      "n": 177
+    },
+    "NeuroIMAGE": {
+      "mse": 0.027197033166885376,
+      "pearson_r": 0.7582988187003509,
+      "n": 39
+    },
+    "OHSU": {
+      "mse": 0.036835577338933945,
+      "pearson_r": 0.8387518151571018,
+      "n": 66
+    },
+    "Peking": {
+      "mse": 0.02739812806248665,
+      "pearson_r": 0.811851774498069,
+      "n": 183
+    },
+    "Pittsburgh": {
+      "mse": 0.03373536840081215,
+      "pearson_r": 0.7917901230784707,
+      "n": 66
+    },
+    "WashU": {
+      "mse": 0.03324946388602257,
+      "pearson_r": 0.793013822225801,
+      "n": 50
+    },
+    "ALL": {
+      "mse": 0.031143344938755035,
+      "pearson_r": 0.794134075831406,
+      "n": 659
+    }
+  },
+  "reconstruction_pca": {
+    "KKI": {
+      "mse": 12.353419303894043,
+      "pearson_r": 0.9199032378883886,
+      "n": 78
+    },
+    "NYU": {
+      "mse": 10.497623443603516,
+      "pearson_r": 0.9226831022333427,
+      "n": 177
+    },
+    "NeuroIMAGE": {
+      "mse": 10.510723114013672,
+      "pearson_r": 0.9154056276545651,
+      "n": 39
+    },
+    "OHSU": {
+      "mse": 16.55204963684082,
+      "pearson_r": 0.9461126837993099,
+      "n": 66
+    },
+    "Peking": {
+      "mse": 9.930890083312988,
+      "pearson_r": 0.9192865808753978,
+      "n": 183
+    },
+    "Pittsburgh": {
+      "mse": 12.205825805664062,
+      "pearson_r": 0.9311928729689992,
+      "n": 66
+    },
+    "WashU": {
+      "mse": 12.311817169189453,
+      "pearson_r": 0.9260811863531652,
+      "n": 50
+    },
+    "ALL": {
+      "mse": 11.475761413574219,
+      "pearson_r": 0.9244368004456578,
+      "n": 659
+    }
+  },
+  "insample_map": {
+    "name": "ours",
+    "class": "ProtectedAffineHarmonizer",
+    "protected": [
+      "diagnosis"
+    ],
+    "protected_kept": [
+      "diagnosis"
+    ],
+    "k": 1,
+    "complement_map": "bw",
+    "covariance": "pooled",
+    "lam": 1.0,
+    "hub": "target",
+    "target_site": 4,
+    "min_cov_samples": 10,
+    "ridge": 1e-06,
+    "mean_model": "conditional",
+    "sites": {
+      "0": {
+        "n": 78,
+        "lam": 1.0,
+        "shrinkage": 0.5283878643616227,
+        "mean_shift_only": false,
+        "displacement_train": 18.903815553406925
+      },
+      "1": {
+        "n": 177,
+        "lam": 1.0,
+        "shrinkage": 0.37397122591261656,
+        "mean_shift_only": false,
+        "displacement_train": 9.721437564663994
+      },
+      "2": {
+        "n": 39,
+        "lam": 1.0,
+        "shrinkage": 0.9351319898809918,
+        "mean_shift_only": false,
+        "displacement_train": 13.68390185633712
+      },
+      "3": {
+        "n": 66,
+        "lam": 1.0,
+        "shrinkage": 0.6373162265142592,
+        "mean_shift_only": false,
+        "displacement_train": 17.142027458696376
+      },
+      "4": {
+        "n": 183,
+        "lam": 0.0,
+        "shrinkage": 0.3230747504745623,
+        "mean_shift_only": false,
+        "displacement_train": 0.0
+      },
+      "5": {
+        "n": 66,
+        "lam": 1.0,
+        "shrinkage": 0.5557202788314707,
+        "mean_shift_only": false,
+        "displacement_train": 13.08023409255482
+      },
+      "6": {
+        "n": 50,
+        "lam": 1.0,
+        "shrinkage": 0.7403033483241926,
+        "mean_shift_only": false,
+        "displacement_train": 15.186032149735682
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+name: tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install (CPU torch)
+        run: |
+          python -m pip install --upgrade pip
+          pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+      - name: Run tests
+        run: python -m pytest tests -q -W ignore::RuntimeWarning
+      - name: CLI smoke test on synthetic data
+        run: |
+          python tests/make_toy_cohort.py --out /tmp/toy
+          python -m vae_harmonization.run_vae_harmonization --config-yaml /tmp/toy.yaml \
+            --out-dir /tmp/toy_out --n-folds 3 --methods default --classifiers lr --no-plots \
+            --downstream --fingerprint --protected-axis
+          python -m vae_harmonization.run_vae_harmonization --config-yaml /tmp/toy.yaml \
+            --out-dir /tmp/toy_out_vae --checkpoint-dir /tmp/toy_ckpt --representation vae --train-vae \
+            --max-epochs 2 --n-folds 3 --methods raw,rep,ours --classifiers lr --skip-insample --no-plots
+          python scripts/sensitivity_grid.py --config-yaml /tmp/toy.yaml --pca-dims 4,6 --n-folds 3 --out /tmp/sweep.json
+          python scripts/run_simulation.py --n-rep 3 --out /tmp/sim.json

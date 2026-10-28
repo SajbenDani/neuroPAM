@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Moving Less Takes You Further: Minimum-Displacement Affine Harmonization of Multi-Site Functional Connectivity with a Label-Protected Subspace"
+type: software
+authors:
+  - family-names: Sajben
+    given-names: Dániel
+    affiliation: "University College Dublin"
+  - family-names: Szegletes
+    given-names: Luca
+    affiliation: "Budapest University of Technology and Economics"
+version: "2.1.0"
+date-released: "2026-10-28"
+license: MIT
+repository-code: "https://github.com/SajbenDani/neuroPAM"
+keywords:
+  - neuroimaging
+  - harmonization
+  - optimal transport
+  - Bures-Wasserstein
+  - functional connectivity
+  - multi-site
+preferred-citation:
+  type: article
+  title: "Moving Less Takes You Further: Minimum-Displacement Affine Harmonization of Multi-Site Functional Connectivity with a Label-Protected Subspace"
+  authors:
+    - family-names: Sajben
+      given-names: Dániel
+    - family-names: Szegletes
+      given-names: Luca
+    - name: "the DIRECT Consortium"
+  year: 2026
+  journal: "Medical Image Analysis (submitted)"

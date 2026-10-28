@@ -1,0 +1,45 @@
+{
+  "agree": true,
+  "max_abs_diff": 0.0,
+  "rtol": 1e-06,
+  "atol": 1e-07,
+  "n_sites": 7,
+  "n_subjects": 659,
+  "messages": {
+    "0": {
+      "n": 78,
+      "has_covariance": true,
+      "shrinkage": 0.35275789936902463
+    },
+    "1": {
+      "n": 177,
+      "has_covariance": true,
+      "shrinkage": 0.2433197753465029
+    },
+    "2": {
+      "n": 39,
+      "has_covariance": true,
+      "shrinkage": 0.9620849979659848
+    },
+    "3": {
+      "n": 66,
+      "has_covariance": true,
+      "shrinkage": 0.6490554087312106
+    },
+    "4": {
+      "n": 183,
+      "has_covariance": true,
+      "shrinkage": 0.2567914721753216
+    },
+    "5": {
+      "n": 66,
+      "has_covariance": true,
+      "shrinkage": 0.4212015240675989
+    },
+    "6": {
+      "n": 50,
+      "has_covariance": true,
+      "shrinkage": 0.6073043607020233
+    }
+  }
+}

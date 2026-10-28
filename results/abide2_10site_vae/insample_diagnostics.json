@@ -1,0 +1,214 @@
+{
+  "gaussianity": {
+    "label": "All sites",
+    "shapiro_wilk_pass_rate": 0.234375,
+    "shapiro_wilk_n_pass": 15,
+    "shapiro_wilk_n_total": 64,
+    "active_dims": 64
+  },
+  "reconstruction_raw": {
+    "EMC": {
+      "mse": 0.03265787288546562,
+      "pearson_r": 0.780682736976279,
+      "n": 40
+    },
+    "ETH": {
+      "mse": 0.030401287600398064,
+      "pearson_r": 0.7573345031343547,
+      "n": 30
+    },
+    "GU": {
+      "mse": 0.03158586472272873,
+      "pearson_r": 0.73223207753738,
+      "n": 58
+    },
+    "IP": {
+      "mse": 0.043888915330171585,
+      "pearson_r": 0.7675069691742321,
+      "n": 47
+    },
+    "KKI": {
+      "mse": 0.03337570279836655,
+      "pearson_r": 0.7563008161112381,
+      "n": 193
+    },
+    "KUL_3": {
+      "mse": 0.0326167531311512,
+      "pearson_r": 0.7747464504497722,
+      "n": 24
+    },
+    "NYU": {
+      "mse": 0.029088564217090607,
+      "pearson_r": 0.7613935301449534,
+      "n": 37
+    },
+    "OHSU": {
+      "mse": 0.03474212810397148,
+      "pearson_r": 0.7761561828871288,
+      "n": 38
+    },
+    "TCD": {
+      "mse": 0.029088450595736504,
+      "pearson_r": 0.7665494865116209,
+      "n": 42
+    },
+    "UCD": {
+      "mse": 0.03307123854756355,
+      "pearson_r": 0.7938270280837582,
+      "n": 25
+    },
+    "ALL": {
+      "mse": 0.033300381153821945,
+      "pearson_r": 0.761715083599922,
+      "n": 534
+    }
+  },
+  "reconstruction_pca": {
+    "EMC": {
+      "mse": 21.173067092895508,
+      "pearson_r": 0.9072538244644843,
+      "n": 40
+    },
+    "ETH": {
+      "mse": 19.112838745117188,
+      "pearson_r": 0.9005730668738148,
+      "n": 30
+    },
+    "GU": {
+      "mse": 19.696300506591797,
+      "pearson_r": 0.884308014861322,
+      "n": 58
+    },
+    "IP": {
+      "mse": 39.65913772583008,
+      "pearson_r": 0.8808779189029607,
+      "n": 47
+    },
+    "KKI": {
+      "mse": 20.938312530517578,
+      "pearson_r": 0.8906420183311462,
+      "n": 193
+    },
+    "KUL_3": {
+      "mse": 18.778778076171875,
+      "pearson_r": 0.8875906908117881,
+      "n": 24
+    },
+    "NYU": {
+      "mse": 17.324893951416016,
+      "pearson_r": 0.9016968528884337,
+      "n": 37
+    },
+    "OHSU": {
+      "mse": 23.141311645507812,
+      "pearson_r": 0.8979934096516219,
+      "n": 38
+    },
+    "TCD": {
+      "mse": 17.843135833740234,
+      "pearson_r": 0.8847912666397791,
+      "n": 42
+    },
+    "UCD": {
+      "mse": 20.97142791748047,
+      "pearson_r": 0.8857479322236975,
+      "n": 25
+    },
+    "ALL": {
+      "mse": 21.93360710144043,
+      "pearson_r": 0.8913595932222482,
+      "n": 534
+    }
+  },
+  "insample_map": {
+    "name": "ours",
+    "class": "ProtectedAffineHarmonizer",
+    "protected": [
+      "diagnosis"
+    ],
+    "protected_kept": [
+      "diagnosis"
+    ],
+    "k": 1,
+    "complement_map": "bw",
+    "covariance": "pooled",
+    "lam": 1.0,
+    "hub": "target",
+    "target_site": 4,
+    "min_cov_samples": 10,
+    "ridge": 1e-06,
+    "mean_model": "conditional",
+    "sites": {
+      "0": {
+        "n": 40,
+        "lam": 1.0,
+        "shrinkage": 0.6524069434036964,
+        "mean_shift_only": false,
+        "displacement_train": 22.893524792673055
+      },
+      "1": {
+        "n": 30,
+        "lam": 1.0,
+        "shrinkage": 0.5859003973097694,
+        "mean_shift_only": false,
+        "displacement_train": 17.925225554142454
+      },
+      "2": {
+        "n": 58,
+        "lam": 1.0,
+        "shrinkage": 0.7340877003829839,
+        "mean_shift_only": false,
+        "displacement_train": 12.490016194909693
+      },
+      "3": {
+        "n": 47,
+        "lam": 1.0,
+        "shrinkage": 0.682159434543157,
+        "mean_shift_only": false,
+        "displacement_train": 14.359382327785289
+      },
+      "4": {
+        "n": 193,
+        "lam": 0.0,
+        "shrinkage": 0.2601471697021406,
+        "mean_shift_only": false,
+        "displacement_train": 0.0
+      },
+      "5": {
+        "n": 24,
+        "lam": 1.0,
+        "shrinkage": 0.7852052522211764,
+        "mean_shift_only": false,
+        "displacement_train": 16.007400064628573
+      },
+      "6": {
+        "n": 37,
+        "lam": 1.0,
+        "shrinkage": 0.6715309976615853,
+        "mean_shift_only": false,
+        "displacement_train": 15.966677280249769
+      },
+      "7": {
+        "n": 38,
+        "lam": 1.0,
+        "shrinkage": 0.7083309550108862,
+        "mean_shift_only": false,
+        "displacement_train": 15.230634174839468
+      },
+      "8": {
+        "n": 42,
+        "lam": 1.0,
+        "shrinkage": 0.44388886078564427,
+        "mean_shift_only": false,
+        "displacement_train": 12.41681308326915
+      },
+      "9": {
+        "n": 25,
+        "lam": 1.0,
+        "shrinkage": 0.7293806209619086,
+        "mean_shift_only": false,
+        "displacement_train": 23.661728586466925
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# ABIDE-II, 10 sites with >= 20 subjects, fMRIPrep / CC200 (195 ROIs, 18,915 edges), N = 534.
+# Identical hyper-parameters to ABIDE-I except the batch size; hub = KKI (largest site).
+dataset_name: abide2_10site
+
+pca_dim: 100
+latent_dim: 64
+encoder_dims: [512, 256]
+decoder_dims: [256, 512]
+
+batch_size: 32
+max_epochs: 300
+patience: 30
+lr: 0.001
+weight_decay: 0.0001
+grad_clip_norm: 1.0
+beta_final: 0.1
+beta_warmup_epochs: 50
+free_bits: 0.125
+lambda_recon: 1.0
+lambda_site: 0.0
+lambda_bio: 0.0
+
+bio_svm_C: 1.0
+min_cov_samples: 10
+ridge: 1.0e-6
+
+n_cv_folds: 10
+seed: 42

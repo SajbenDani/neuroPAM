@@ -1,0 +1,166 @@
+{
+  "protocol": "single-map: harmonizer fitted on full-scan latents, same site maps applied to both halves",
+  "metric": "cosine",
+  "n_subjects": 534,
+  "chance_all": 0.0018726591760299626,
+  "conditions": {
+    "Unharmonized": {
+      "all": {
+        "rank1": 0.7237827715355805,
+        "median_rank": 1.0,
+        "idiff": 21.164549108186627,
+        "n": 534
+      },
+      "within_site": {
+        "rank1_weighted": 0.7846441947565543,
+        "rank1_unweighted": 0.8172339090859817,
+        "idiff_weighted": 19.25662158053224,
+        "chance_weighted": 0.018726591760299626,
+        "n_sites": 10,
+        "per_site": {
+          "EMC": {
+            "rank1": 0.8625,
+            "median_rank": 1.0,
+            "idiff": 22.376470956182715,
+            "n": 40
+          },
+          "ETH": {
+            "rank1": 0.8833333333333333,
+            "median_rank": 1.0,
+            "idiff": 15.770299154334023,
+            "n": 30
+          },
+          "GU": {
+            "rank1": 0.7758620689655172,
+            "median_rank": 1.0,
+            "idiff": 18.410054369477102,
+            "n": 58
+          },
+          "IP": {
+            "rank1": 0.8936170212765957,
+            "median_rank": 1.0,
+            "idiff": 26.917997776999897,
+            "n": 47
+          },
+          "KKI": {
+            "rank1": 0.7202072538860103,
+            "median_rank": 1.0,
+            "idiff": 19.044754564485856,
+            "n": 193
+          },
+          "KUL_3": {
+            "rank1": 0.875,
+            "median_rank": 1.0,
+            "idiff": 20.31469673505836,
+            "n": 24
+          },
+          "NYU": {
+            "rank1": 0.7567567567567568,
+            "median_rank": 1.0,
+            "idiff": 17.7402232185223,
+            "n": 37
+          },
+          "OHSU": {
+            "rank1": 0.763157894736842,
+            "median_rank": 1.0,
+            "idiff": 16.814600970791904,
+            "n": 38
+          },
+          "TCD": {
+            "rank1": 0.7619047619047619,
+            "median_rank": 1.0,
+            "idiff": 16.43501193992489,
+            "n": 42
+          },
+          "UCD": {
+            "rank1": 0.88,
+            "median_rank": 1.0,
+            "idiff": 17.3254044855515,
+            "n": 25
+          }
+        }
+      }
+    },
+    "Ours (edge residual)": {
+      "all": {
+        "rank1": 0.4634831460674157,
+        "median_rank": 3.0,
+        "idiff": 13.417032833393893,
+        "n": 534
+      },
+      "within_site": {
+        "rank1_weighted": 0.5767790262172284,
+        "rank1_unweighted": 0.532707034740335,
+        "idiff_weighted": 13.629813916631349,
+        "chance_weighted": 0.018726591760299626,
+        "n_sites": 10,
+        "per_site": {
+          "EMC": {
+            "rank1": 0.525,
+            "median_rank": 1.0,
+            "idiff": 9.474797111778987,
+            "n": 40
+          },
+          "ETH": {
+            "rank1": 0.7,
+            "median_rank": 1.0,
+            "idiff": 17.25680988999447,
+            "n": 30
+          },
+          "GU": {
+            "rank1": 0.4482758620689655,
+            "median_rank": 3.0,
+            "idiff": 9.724862711944382,
+            "n": 58
+          },
+          "IP": {
+            "rank1": 0.1276595744680851,
+            "median_rank": 12.5,
+            "idiff": 4.043221546869913,
+            "n": 47
+          },
+          "KKI": {
+            "rank1": 0.7202072538860103,
+            "median_rank": 1.0,
+            "idiff": 19.044754564485842,
+            "n": 193
+          },
+          "KUL_3": {
+            "rank1": 0.6666666666666667,
+            "median_rank": 1.0,
+            "idiff": 11.301693564101644,
+            "n": 24
+          },
+          "NYU": {
+            "rank1": 0.6081081081081081,
+            "median_rank": 1.0,
+            "idiff": 12.006561599977882,
+            "n": 37
+          },
+          "OHSU": {
+            "rank1": 0.5921052631578947,
+            "median_rank": 1.0,
+            "idiff": 13.437976216965964,
+            "n": 38
+          },
+          "TCD": {
+            "rank1": 0.6190476190476191,
+            "median_rank": 1.0,
+            "idiff": 13.346919301699689,
+            "n": 42
+          },
+          "UCD": {
+            "rank1": 0.32,
+            "median_rank": 4.0,
+            "idiff": 6.608649508600195,
+            "n": 25
+          }
+        }
+      },
+      "delta_rank1_all_pp": -26.029962546816478,
+      "delta_rank1_within_pp": -20.78651685393259,
+      "delta_idiff_within": -5.626807663900891
+    }
+  },
+  "representation": "raw"
+}
